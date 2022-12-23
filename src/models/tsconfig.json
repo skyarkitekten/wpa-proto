@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "composite": true,
+        "target": "ESNext",
+        "module": "ESNext",
+        "rootDir": "./",
+        "outDir": "../../dist/models",
+        "moduleResolution": "node",
+        "types": [],
+        "declaration": true,
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+    }
+}
