@@ -19,7 +19,7 @@ describe('Work Items', () => {
 
     describe('a work item container can be created', () => {
 
-        const workItemContainer = createWorkItemContainer('epic1/feature1');
+        const workItemContainer = createWorkItemContainer('epic1/feature1', [createWorkItem(1), createWorkItem(2), createWorkItem(3)]);
 
         it('should be defined', () => {
             expect(workItemContainer).toBeDefined();
