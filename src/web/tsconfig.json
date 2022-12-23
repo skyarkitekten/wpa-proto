@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "lib": [
+            "DOM",
+            "ESNext"
+        ],
+        "rootDir": "./",
+        "outDir": "../../dist/web",
+        "moduleResolution": "node",
+        "types": [],
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+    },
+    "references": [
+        {
+            "path": "../models"
+        },
+    ]
+}
