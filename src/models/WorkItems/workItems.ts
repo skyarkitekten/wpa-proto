@@ -1,17 +1,17 @@
 import { Person } from '../People';
 
-type WorkItem = {
+export type WorkItem = {
     id: number;
     title: string;
     description: string;
     status: string;
-    assignedTo: Person;
-    createdBy: Person;
+    assignedTo?: Person; // could use a pointer to a employeeId
+    createdBy?: Person; // could use a pointer to a employeeId
     createdDate: Date;
     lastUpdatedDate: Date;
 };
 
-type WorkItemContainer = {
-    heirarchypath: string;
+export type WorkItemContainer = {
+    hierarchyPath: string;
     workItems: WorkItem[];
 };
