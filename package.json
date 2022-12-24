@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx jest"
+    "test": "npx jest --collect-coverage",
+    "build": "npx tsc -p src/models/tsconfig.json && npx tsc -p src/server/tsconfig.json && npx tsc -p src/web/tsconfig.json"
   },
   "keywords": [
     "data-oriented",
